@@ -13,7 +13,7 @@ function Bag(props) {
                         <div className="products bag">
                             <img src={selected.itemImage} alt={selected.itemTitle} />
                             <p>{selected.itemTitle}</p>
-                            <p> Rs. {selected.productPrice} × {selected.itemQty}</p>
+                            <p> Rs. {selected.productPrice}</p>
                             <button className="btn-warning  btn increase">+</button>
                             <button className="btn-success btn decrease">-</button>
                         </div>

@@ -8,7 +8,7 @@ function Home(props) {
                 <img src={props.image} alt={props.title} />
                 <p>{props.title}</p>
                 <p className="text-light p-2" > Rs. {props.price}</p>
-                <button className="btn click-buton btn-warning" onClick={() => props.onAdd(props.image, props.title, props.price, props.qty)}>Add Now</button>
+                <button className="btn click-buton btn-warning" onClick={() => props.onAdd(props.image, props.title, props.price,)}>Buy Now</button>
             </div>
         </div>
     )

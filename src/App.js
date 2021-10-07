@@ -9,9 +9,9 @@ import Contact from "./components/Contact";
 function App() {
 
   const [cartItems, setCatItems] = useState([]);
-  const handleClick = (image, title, price, qty) => {
+  const handleClick = (image, title, price) => {
     if (!cartItems.includes({ itemImage: image, itemTitle: title, productPrice: price })) {
-      setCatItems([...cartItems, { itemImage: image, itemQty: qty, itemTitle: title, productPrice: price }]);
+      setCatItems([...cartItems, { itemImage: image, itemTitle: title, productPrice: price }]);
     } else {
       alert("item is already exists");
     }

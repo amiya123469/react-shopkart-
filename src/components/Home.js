@@ -20,7 +20,6 @@ function Home(props) {
             {data.map((item) =>
 
                 <Products
-                    qty={item.qty}
                     title={item.title}
                     price={item.price}
                     image={item.image}
