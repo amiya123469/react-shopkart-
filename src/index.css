@@ -1,13 +1,131 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@media (max-width: 2200px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(https://image.freepik.com/free-photo/shopping-cart-black-background-with-copy-space_23-2148317906.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  hr {
+    height: 15px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 5px solid aqua;
+    width: 10%;
+    margin: 20px auto;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  .nav-bar {
+    display: flex;
+    padding-bottom: 10px;
+  }
+  .nav-items {
+    padding: 10px 30px;
+    position: absolute;
+    float: right;
+    margin-left: 30%;
+  }
+  .logo {
+    padding: 10px 80px;
+    float: left;
+    font-size: 1.6rem;
+  }
+  .nav-items li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 20px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  a:hover {
+    color: aquamarine;
+  }
+  .cart {
+    position: absolute;
+    left: 70%;
+    margin-top: 30px;
+  }
+  .btn {
+    top: 5px;
+    position: relative;
+  }
+  .home-products {
+    display: inline-flex;
+    padding: auto;
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+  .home-products .text-center {
+    justify-content: center;
+    position: absolute;
+    left: 45%;
+    top: 15%;
+  }
+  .home-products hr {
+    justify-content: center;
+    position: absolute;
+    left: 47%;
+    top: 23%;
+  }
+  .products {
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+
+  .products img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .products p {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+  .products .click-buton {
+    margin: 0 30px;
+  }
+
+  .decrease {
+    padding: 7px 15px;
+    margin-left: 20px;
+  }
+  .increase {
+    padding: 7px 13px;
+    margin-left: 80px;
+  }
+  .bag {
+    width: 500px;
+  }
+  .bag p {
+    width: 70%;
+  }
 }
